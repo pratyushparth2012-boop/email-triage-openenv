@@ -1,0 +1,7 @@
+name: email-env
+description: Email triage and response environment
+
+tasks:
+  - easy
+  - medium
+  - hard
