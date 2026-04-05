@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-RUN pip install -r requirements.txt
+RUN pip install pydantic openai
 
 CMD ["python", "inference.py"]
